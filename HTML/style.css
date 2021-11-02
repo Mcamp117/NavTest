@@ -76,8 +76,8 @@ footer{
     background-color: black;
   }
 #map{
-    height: 750px;
-    width: 1000px;
+    height: 700px;
+    width: 950px;
     background-image: url("drawMaps/MASTER\ SICTC\ FLOOR\ PLAN.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
