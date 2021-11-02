@@ -1,19 +1,11 @@
 table{
-    width:60%;
-    border: 1px solid black;
+    width:90%;
     border-collapse: collapse;
     margin-bottom: 1em;
     margin-left: auto;margin-right: auto;
 }
-td{
-    border:1px solid black;
-}
-th{
-    border:1px solid black;
-}
 
 body{
-    background-image: url(htmlImages/Background.png);
     margin: 0;
     background-color: #8F9961;
     color: black;
@@ -95,6 +87,8 @@ footer{
     border: 5px solid #0C3D56;
 }
 .classBTN{
+    width: 220px;
+    padding: 9px;
     background-color: black;
     color: white;
     font-size: 20px;
