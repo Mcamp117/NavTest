@@ -91,6 +91,14 @@ footer{
     font-size: 20px;
     cursor: pointer;
 }
+.classWBTN{
+    width: 220px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
 .studio{
     font-style: italic;
 }
