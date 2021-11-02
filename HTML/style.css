@@ -87,15 +87,17 @@ footer{
     width: 220px;
     padding: 10px;
     background-color: transparent;
-    color: black;
+    color: #ffffe6;
+    border: none;
     font-size: 20px;
     cursor: pointer;
 }
 .classWBTN{
     width: 220px;
     padding: 15px;
-    background-color: black;
-    color: white;
+    border: none;
+    background-color: transparent;
+    color: #ffffe6;
     font-size: 20px;
     cursor: pointer;
 }
