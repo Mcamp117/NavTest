@@ -1,7 +1,6 @@
 table{
     width:90%;
     border-collapse: collapse;
-    margin-bottom: 1em;
     margin-left: auto;margin-right: auto;
 }
 
@@ -76,8 +75,8 @@ footer{
     background-color: black;
   }
 #map{
-    height: 700px;
-    width: 950px;
+    height: 600px;
+    width: 850px;
     background-image: url("drawMaps/MASTER\ SICTC\ FLOOR\ PLAN.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -85,7 +84,7 @@ footer{
 }
 .classBTN{
     width: 220px;
-    padding: 15px;
+    padding: 10px;
     background-color: black;
     color: white;
     font-size: 20px;
