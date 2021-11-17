@@ -10,11 +10,12 @@
 
     <ScrollView
         android:id="@+id/scrollView3"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="1dp">
+        android:layout_width="168dp"
+        android:layout_height="538dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="29dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -22,150 +23,164 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button27"
-                android:background="@android:color/transparent"
+                android:id="@+id/graphicBTN"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Graphic" />
+                android:background="@android:color/transparent"
+                android:text="Graphic Communication" />
 
             <Button
-                android:id="@+id/button29"
-                android:background="@android:color/transparent"
+                android:id="@+id/culinaryBTN"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Culinary" />
+                android:background="@android:color/transparent"
+                android:text="Culinary Arts" />
 
             <Button
-                android:id="@+id/button30"
-                android:background="@android:color/transparent"
+                android:id="@+id/dieselBTN"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Diesel" />
+                android:background="@android:color/transparent"
+                android:text="Diesel Service" />
 
             <Button
-                android:id="@+id/button31"
-                android:background="@android:color/transparent"
+                android:id="@+id/automotiveBTN"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Automotive" />
+                android:background="@android:color/transparent"
+                android:text="Automotive Service" />
 
             <Button
-                android:id="@+id/button32"
-                android:background="@android:color/transparent"
+                android:id="@+id/veterinaryBTN"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Veterinary" />
+                android:background="@android:color/transparent"
+                android:text="Veterinary Science" />
 
             <Button
-                android:id="@+id/button33"
-                android:background="@android:color/transparent"
+                android:id="@+id/collisionBTN"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Collision" />
+                android:background="@android:color/transparent"
+                android:text="Automotive Collision" />
 
             <Button
-                android:id="@+id/button34"
-                android:background="@android:color/transparent"
+                android:id="@+id/radioBTN"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Radio" />
+                android:background="@android:color/transparent"
+                android:text="Radio/TV" />
 
-            <Button
-                android:id="@+id/button35"
-                android:background="@android:color/transparent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Welding" />
-
-            <Button
-                android:id="@+id/button36"
-                android:background="@android:color/transparent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Precision" />
-
-            <Button
-                android:id="@+id/button37"
-                android:background="@android:color/transparent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Engineering" />
-
-            <Button
-                android:id="@+id/button38"
-                android:background="@android:color/transparent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Manufacturing" />
-
-            <Button
-                android:id="@+id/button39"
-                android:background="@android:color/transparent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Comp. Sci" />
-
-            <Button
-                android:id="@+id/button40"
-                android:background="@android:color/transparent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Electricity" />
-
-            <Button
-                android:id="@+id/button41"
-                android:background="@android:color/transparent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Comp. Network" />
-
-            <Button
-                android:id="@+id/button42"
-                android:background="@android:color/transparent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Construction" />
-
-            <Button
-                android:id="@+id/button43"
-                android:background="@android:color/transparent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="HVAC" />
-
-            <Button
-                android:id="@+id/button44"
-                android:background="@android:color/transparent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Health Sci." />
-
-            <Button
-                android:id="@+id/button45"
-                android:background="@android:color/transparent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Public Safety" />
 
         </LinearLayout>
     </ScrollView>
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="800dp"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:paddingLeft="80dp"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="610dp"
+        android:layout_height="557dp"
+        android:layout_marginEnd="6dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/scrollView2"
+        app:layout_constraintStart_toEndOf="@+id/scrollView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mastersictcfloorplan" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/mastersictcfloorplan" />
-    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/weldingBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Welding Technology" />
+
+            <Button
+                android:id="@+id/precisionBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Precision Machine" />
+
+            <Button
+                android:id="@+id/engineeringBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Engineering" />
+
+            <Button
+                android:id="@+id/manuBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Adv. Manufacture" />
+
+            <Button
+                android:id="@+id/csBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Computer Science" />
+
+            <Button
+                android:id="@+id/electricityBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Electricity Technology" />
+
+            <Button
+                android:id="@+id/cnBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Computer Network" />
+
+            <Button
+                android:id="@+id/constructionBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Building Construction" />
+
+            <Button
+                android:id="@+id/hvacBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="HVAC-R" />
+
+            <Button
+                android:id="@+id/healthBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Health Sciences" />
+
+            <Button
+                android:id="@+id/safetyBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Public Safety" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
