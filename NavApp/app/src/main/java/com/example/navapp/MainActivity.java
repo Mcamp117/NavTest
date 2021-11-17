@@ -11,7 +11,7 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
     boolean isPressed=false;
 
-
+    
     Button graphicBTN;
     Button culinaryBTN;
     Button dieselBTN;
@@ -113,10 +113,10 @@ public class MainActivity extends AppCompatActivity {
     private void buildingTradesMap(){
         image.setImageResource(R.drawable.graphicmap);
     }
-    private void graphicMap(){
+    private void automotiveMap(){
         image.setImageResource(R.drawable.graphicmap);
     }
-    private void graphicMap(){
+    private void agMap(){
         image.setImageResource(R.drawable.graphicmap);
     }
 
